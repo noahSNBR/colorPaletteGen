@@ -1,0 +1,66 @@
+.navContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-200%, -50%);
+}
+
+.greetingScreen h1 {
+    font-size: 6vh;
+}
+
+.App {
+    background: url(./wave.svg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.navContainer button {
+    height: 10vh;
+    width: 35vh;
+    margin: 10px;
+    transition: 350ms ease;
+    font-weight: 600;
+}
+
+.navContainer button:nth-child(1) {
+    background: rgb(60, 60, 225);
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 4vh;
+}
+
+.navContainer button:nth-child(3) {
+    background: none;
+    border-radius: 50px;
+    color: #252525;
+    border: 2px solid #252525;
+    font-size: 4vh;
+}
+
+.navContainer button:nth-child(1):hover {
+    box-shadow: 0px 0px 25px rgb(60, 60, 225);
+    text-shadow: 0px 0px 25px #fff;
+    cursor: pointer;
+}
+
+.navContainer button:nth-child(3):hover {
+    background: rgb(25, 25, 25);
+    color: #fff;
+}
+
+.palette {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(10%, -50%);
+    height: 80vh;
+    width: 80vh;
+}
+
+.greetingScreen p {
+    font-size: 4vh;
+    position: absolute;
+    font-style: italic;
+}

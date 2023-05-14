@@ -20,6 +20,5 @@ section .col {
 .table .row .col {
     color: #252525;
     font-size: 3vh;
-    margin: 30px;
     font-weight: 900;
 }

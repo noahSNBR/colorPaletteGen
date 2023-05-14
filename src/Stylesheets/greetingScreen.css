@@ -7,6 +7,9 @@
 
 .greetingScreen h1 {
     font-size: 6vh;
+    background: linear-gradient(45deg, blue, darkcyan, cyan);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 
 .navContainer button {
@@ -35,7 +38,7 @@
 }
 
 .navContainer button:nth-child(1):hover {
-    box-shadow: 0px 0px 12px 7px var(--bg-def);
+    box-shadow: 0px 0px 12px 3px var(--bg-def);
 }
 
 .palette {

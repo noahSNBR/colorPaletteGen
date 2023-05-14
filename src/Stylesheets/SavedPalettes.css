@@ -23,7 +23,3 @@ section .col {
     margin: 30px;
     font-weight: 900;
 }
-
-.table .row .col:hover {
-    color: red
-}

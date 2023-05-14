@@ -56,4 +56,8 @@
     height: 80%;
     margin: 5px;
     margin-bottom: 0;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

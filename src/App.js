@@ -4,6 +4,8 @@ import Welcome from './Components/Welcome';
 import './Stylesheets/greetingScreen.css';
 import Interface from './Components/Interface';
 import './Stylesheets/Generator.css'
+import SavedPalettes from './Components/SavedPalettes';
+import './Stylesheets/SavedPalettes.css';
 export default function App() {
   const [greet, setGreet] = useState(true);
   const [interfacing, setInterfacing] = useState(true);

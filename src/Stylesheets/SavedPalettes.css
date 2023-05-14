@@ -1,0 +1,29 @@
+section {
+    display: table;
+    width: 100%;
+}
+
+section>* {
+    display: table-row;
+}
+
+section .col {
+    display: table-cell;
+}
+
+.table header {
+    font-size: 5vh;
+    font-weight: 900;
+    margin-bottom: 3vh
+}
+
+.table .row .col {
+    color: #252525;
+    font-size: 3vh;
+    margin: 30px;
+    font-weight: 900;
+}
+
+.table .row .col:hover {
+    color: red
+}

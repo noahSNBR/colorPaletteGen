@@ -2,52 +2,40 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-200%, -50%);
+    transform: translate(-200%, -70%);
 }
 
 .greetingScreen h1 {
     font-size: 6vh;
 }
 
-.App {
-    background: url(./wave.svg);
-    background-position: bottom;
-    background-repeat: no-repeat;
-}
-
 .navContainer button {
+    border: 2px solid #252525;
+    transition: 200ms ease-in;
+    border-radius: 50px;
+    background: none;
+    color: #252525;
+    font-weight: 900;
+    font-size: 4vh;
     height: 10vh;
     width: 35vh;
     margin: 10px;
-    transition: 350ms ease;
-    font-weight: 600;
 }
 
 .navContainer button:nth-child(1) {
-    background: rgb(60, 60, 225);
+    background: var(--bg-def);
     border: none;
-    border-radius: 50px;
     color: #fff;
-    font-size: 4vh;
 }
 
-.navContainer button:nth-child(3) {
-    background: none;
-    border-radius: 50px;
-    color: #252525;
-    border: 2px solid #252525;
-    font-size: 4vh;
+.navContainer button:nth-child(3):hover,
+.navContainer button:nth-child(5):hover {
+    background: #252525;
+    color: #fff;
 }
 
 .navContainer button:nth-child(1):hover {
-    box-shadow: 0px 0px 25px rgb(60, 60, 225);
-    text-shadow: 0px 0px 25px #fff;
-    cursor: pointer;
-}
-
-.navContainer button:nth-child(3):hover {
-    background: rgb(25, 25, 25);
-    color: #fff;
+    box-shadow: 0px 0px 12px 7px var(--bg-def);
 }
 
 .palette {
